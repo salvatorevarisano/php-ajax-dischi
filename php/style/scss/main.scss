@@ -1,0 +1,14 @@
+//GENERAL
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:sans-serif;
+    background-color: #132835;
+}
+
+@import './header';
+@import './utilities';
+@import './card';

@@ -1,0 +1,33 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #132835;
+}
+
+header {
+  height: 2.5rem;
+  background-color: #11212B;
+}
+
+header img {
+  display: block;
+  height: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  color: #fff;
+  background-color: #181818;
+}
+/*# sourceMappingURL=main.css.map */
