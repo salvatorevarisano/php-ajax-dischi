@@ -10,6 +10,14 @@ body {
   background-color: #132835;
 }
 
+main > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 header {
   height: 2.5rem;
   background-color: #11212B;
@@ -26,8 +34,29 @@ header img {
 }
 
 .card {
+  width: calc(100% / 4);
+  margin: 30px calc( (25% / 3 ) / 2);
+  padding: 15px;
   text-align: center;
   color: #fff;
   background-color: #181818;
+}
+
+.card > * {
+  margin-bottom: 10px;
+}
+
+.card .poster {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.card .poster img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=main.css.map */

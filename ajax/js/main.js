@@ -1,7 +1,7 @@
 const app = new Vue ({
     el: '#app',
     data: {
-        apiURL: window.location.href + 'data/database.php',
+        apiURL: window.location.href + 'data/db.php',
         albums: [],
     },
     created() {
