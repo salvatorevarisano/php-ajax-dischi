@@ -23,6 +23,12 @@
                         <img src="../php/img/logo.png" alt="spotify">
                     </a>
                 </h1>
+                <div>
+                    <select name="artists-fileter" id="artists">
+                        <option value="All">All</option>
+                        <option v-for="artist in artists" :value="artist">{{artist}}</option>
+                    </select>
+                </div>
             </div>
         </header>
         <!-- main content -->
