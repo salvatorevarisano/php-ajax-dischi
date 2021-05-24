@@ -24,9 +24,11 @@
                     </a>
                 </h1>
                 <div>
-                    <select name="artists-fileter" id="artists">
-                        <option value="All">All</option>
-                        <option v-for="artist in artists" :value="artist">{{artist}}</option>
+                    <select @change="getFiltered" v-model="filterArtist" name="artists-fileter" id="artists">
+                        <option value="all">All</option>
+                        <option v-for="artist in artists" :value="artist">
+                            {{artist}}
+                        </option>
                     </select>
                 </div>
             </div>
